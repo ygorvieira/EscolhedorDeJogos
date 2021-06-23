@@ -1,23 +1,11 @@
-﻿using System.Runtime.Serialization;
-
-namespace EscolhedorDeJogos.Domain.Entities
+﻿namespace EscolhedorDeJogos.Domain.Entities
 {
-    [DataContract(Name = "game")]
-    public class Jogo
+    public class Game
     {
-        [DataMember(Name = "appid")]
-        public int ID { get; set; }
-
-        [DataMember(Name = "playtime_forever")]
-        public int TempoTotal { get; set; }
-
-        [DataMember(Name = "playtime_windows_forever")]
-        public int TempoWindows { get; set; }
-
-        [DataMember(Name = "playtime_mac_forever")]
-        public int TempoMac { get; set; }
-
-        [DataMember(Name = "playtime_linux_forever")]
-        public int TempoLinux { get; set; }        
+        public int appid { get; set; }
+        public int playtime_forever { get; set; }
+        public int playtime_windows_forever { get; set; }
+        public int playtime_mac_forever { get; set; }
+        public int playtime_linux_forever { get; set; }
     }
 }

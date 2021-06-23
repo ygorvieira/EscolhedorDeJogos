@@ -1,10 +1,11 @@
 ﻿using EscolhedorDeJogos.Domain.Entities;
-using EscolhedorDeJogos.Domain.ViewModels;
+using EscolhedorDeJogos.Domain.Utils;
+
+using Newtonsoft.Json;
+
 using System;
-using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace EscolhedorDeJogos.Domain.Service
@@ -21,20 +22,25 @@ namespace EscolhedorDeJogos.Domain.Service
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        public Jogo GetJogos()
+        public async Task<BibliotecaGames> GetJogos()
         {
-            var jogo = new Jogo();
-            var usuarioID = "";
-            var apiKey = "";
+            var jogos = new BibliotecaGames();
+            var usuarioID = Constants.usuarioID;
+            var apiKey = Constants.apiKey;
 
             var path = string.Format(@"http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key={0}&steamid={1}&format=json", apiKey, usuarioID);
 
-            var request = client.GetAsync(path);
+            var response = client.GetAsync(path).Result;
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new Exception(response.ReasonPhrase);
+            }
+            if (response.IsSuccessStatusCode)
+            {
+                jogos = await response.Content.ReadAsAsync<BibliotecaGames>();
+            }            
 
-            var response = request.Result.Content.ReadAsAsync<ListaJogosViewModel>();
-
-
-            return jogo;
+            return jogos;
         }
     }
 }

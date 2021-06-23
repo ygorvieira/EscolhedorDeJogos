@@ -10,8 +10,7 @@ namespace EscolhedorDeJogos.Tests
         public void TestMethod1()
         {
             var service = new JogoService();
-
-            var resultado = service.GetJogos();
+            var result = service.GetJogos();
         }
     }
 }

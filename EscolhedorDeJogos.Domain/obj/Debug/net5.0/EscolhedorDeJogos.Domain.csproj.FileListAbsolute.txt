@@ -1,0 +1,12 @@
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\bin\Debug\net5.0\EscolhedorDeJogos.Domain.deps.json
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\bin\Debug\net5.0\EscolhedorDeJogos.Domain.dll
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\bin\Debug\net5.0\ref\EscolhedorDeJogos.Domain.dll
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\bin\Debug\net5.0\EscolhedorDeJogos.Domain.pdb
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\obj\Debug\net5.0\EscolhedorDeJogos.Domain.csproj.AssemblyReference.cache
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\obj\Debug\net5.0\EscolhedorDeJogos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\obj\Debug\net5.0\EscolhedorDeJogos.Domain.AssemblyInfoInputs.cache
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\obj\Debug\net5.0\EscolhedorDeJogos.Domain.AssemblyInfo.cs
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\obj\Debug\net5.0\EscolhedorDeJogos.Domain.csproj.CoreCompileInputs.cache
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\obj\Debug\net5.0\EscolhedorDeJogos.Domain.dll
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\obj\Debug\net5.0\ref\EscolhedorDeJogos.Domain.dll
+D:\PROJETOS\EJogos\EscolhedorDeJogos\EscolhedorDeJogos.Domain\obj\Debug\net5.0\EscolhedorDeJogos.Domain.pdb
